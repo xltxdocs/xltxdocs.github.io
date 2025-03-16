@@ -12,7 +12,7 @@
 
 **扫描二维码加入QQ群（群号：1028096082）**
 
-<img src="https://picx.zhimg.com/80/v2-8d51c63a5c9e9629f5534e7561c4924a_1440w.jpeg" style="zoom:25%;" />
+<img src="https://free-img.400040.xyz/4/2025/03/16/67d633c689baf.jpg" style="zoom:25%;" />
 
 
 
