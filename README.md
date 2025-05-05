@@ -8,7 +8,7 @@
 
 ✓ **XLTX的主页：**
 
-[B站（首发）](https://space.bilibili.com/3546668544821656) [抖音](https://www.douyin.com/user/MS4wLjABAAAASiyfbXSxfh4IoLCa53aomaojUJnagMMb9ROvzRdAxtzr6U4HD-2kweNO8IB3L7rF?from_tab_name=main)
+[B站（首发）](https://space.bilibili.com/3546668544821656) [抖音](https://www.douyin.com/user/MS4wLjABAAAASiyfbXSxfh4IoLCa53aomaojUJnagMMb9ROvzRdAxtzr6U4HD-2kweNO8IB3L7rF?from_tab_name=main) [YouTube](https://www.youtube.com/@玩电脑的小李同学)
 
 **扫描二维码加入QQ群（群号：1028096082）**
 
@@ -21,6 +21,8 @@
 <font color='RedOrange'>**● 注意！请将附件先转存到自己网盘再下载！！！避免文件被和谐！！！**</font>
 
 ##### EP1-如何搭建网站？个人网站搭建指南
+
+##### **Docsify**
 
 ● Docsify（官网）：https://docsify.js.org/#/
 
@@ -68,18 +70,200 @@ docsify init ./docs
 docsify serve docs
 ```
 
-○ 以下内容需要在Github中操作
+\#README.md文件是Markdown文件，推荐使用Typora编辑
 
-\#点击"Create repository"
+\#注册/登入[GitHub](https://github.com/)
 
-\#输入"Repository name"（格式：你的用户名.github.io）
+\#点击Create a new repository
 
-\#点击"Create repository"
+\#仓库名输入：你的GitHub用户名.github.io
 
-\#点击"uploading an existing file"→"choose your files",上传"docs"文件夹中的所有文件
+\#勾选 Add a README file
 
-\#点击"Commit changes"
+\#勾选 Public
 
-\#点击"Settings"→"Pages"，等待一会
+\#点击 Create
 
-\#点击"你的用户名.github.io"
+\#点击 Add file
+
+#点击 Upload files
+
+\#点击 choose your files，上传 docs文件夹中的文件
+
+\#点击 Commit changes
+
+**Hexo**
+
+● Hexo（官网）：https://hexo.io/zh-cn/
+
+● Node.js（官网）：https://nodejs.org/zh-cn
+
+● Node.js（提取码：xltx）：https://www.123684.com/s/vNJLjv-m3bDH
+
+● Git（官网）：https://git-scm.com/?hl=zh-cn
+
+● Git（提取码：xltx）：https://www.123912.com/s/vNJLjv-YHZDH
+
+● Typora（官网）：https://typoraio.cn
+
+● Typora（提取码：xltx）：https://www.123684.com/s/vNJLjv-13bDH
+
+● Github：https://github.com/
+
+○ 以下代码需要在命令提示符中输入，每输入一行按一次回车
+
+\#查看node.js有没有正确安装
+
+```
+node -v
+```
+
+\#查看npm有没有正确安装
+
+```
+npm -v
+```
+
+\#查看git有没有正确安装
+
+```
+git -v
+```
+
+\#下载Hexo
+
+```
+install hexo-cli -g
+```
+
+\#注册/登入[GitHub](https://github.com/)
+
+\#点击Create a new repository
+
+\#仓库名输入：你的GitHub用户名.github.io
+
+\#勾选 Add a README file
+
+\#勾选 Public
+
+\#点击 Create
+
+○ 以下代码需要在Git Bash中输入，每输入一行按一次回车
+
+\#生成SSH Keys
+
+```
+ssh-keygen -t rsa -C "你的邮箱地址"
+```
+
+\#敲4次Enter
+
+\#进入C:\Users\你的用户名，在里面进入.ssh文件夹
+
+\#用记事本打开里面的id_rsa.pub,全选复制里面的代码
+
+\#注册/登入[GitHub](https://github.com/)
+
+\#进入用户设置，找到SSH keys
+
+\#新建SSH keys，名称随意，在下面粘贴代码，然后创建
+
+\#查看是否成功添加
+
+```
+ssh -T git@github.com
+```
+
+\#敲1次Enter
+
+\#输入yes
+
+```
+yes
+```
+
+\#本地生成博客内容
+
+```
+hexo init
+```
+
+\#安装
+
+```
+hexo install
+```
+
+\#生成博客内容
+
+```
+hexo g
+```
+
+\#本地部署博客
+
+```
+hexo s
+```
+
+\#Ctrl+C关闭
+
+\#记事本打开_config.yml
+
+\#拉到最下面将deploy后面的全删掉，粘贴这段：
+
+```
+  type: git
+  repository: 
+  branch: main
+```
+
+\#点击 Code，复制SSH链接，粘贴到 repository后面，保存退出
+
+\#回到博客文件夹，打开Git Bash
+
+\#安装自动部署发布工具
+
+```
+npm install hexo-deployer-git --save
+```
+
+\#生成博客内容
+
+```
+hexo g
+```
+
+\#配置邮箱和GitHub账号
+
+```
+git config --global user.email "你的邮箱"
+git config --global user.name "你的GitHub账号"
+```
+
+\#上传博客内容
+
+```
+hexo d
+```
+
+\#用记事本打开博客文件夹的_config.yml文件，将#Site下面按自己的需求填上，填完后保存
+
+```
+## Site
+title: 标题
+subtitle: 副标题
+description: 描述
+keywords: 关键词
+author: 站主
+language: 语言（可以填写zh-CN）
+timezone: 时区（可以填写Asia/Shanghai）
+```
+
+\#生成新的文章
+
+```
+hexo new 文章标题
+```
+
+\#文章是Markdown文件，在博客文件夹中的source/_posts中，推荐使用Typora编辑
