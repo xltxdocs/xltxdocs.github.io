@@ -72,6 +72,34 @@ docsify serve docs
 
 \#README.md文件是Markdown文件，推荐使用Typora编辑
 
+\#用记事本打开博客文件夹的index.html文件，按自己的需求填上，填完后保存
+
+```
+<!DOCTYPE html>
+<html lang="语言（可以填写zh-CN）">
+<head>
+  <meta charset="UTF-8">
+  <title>网站标题</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '',
+      repo: ''
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
+
+```
+
 \#注册/登入[GitHub](https://github.com/)
 
 \#点击Create a new repository
