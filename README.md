@@ -22,7 +22,7 @@
 
 ##### EP1-如何搭建网站？个人网站搭建指南
 
-##### **Docsify**
+**Docsify**
 
 ● Docsify（官网）：https://docsify.js.org/#/
 
