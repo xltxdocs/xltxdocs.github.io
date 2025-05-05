@@ -1,12 +1,12 @@
 # ○小李同学的附件表
 
-> XLTX的附件表（请按快捷键 Ctrl+F 输入视频标题来搜索内容）
+> 小李同学的附件表（请按快捷键 Ctrl+F 输入视频标题来搜索内容）
 
 ✓ **和每期视频保持同步更新**
 
 ✓ **你可以在这里找到一些因各种原因被视频网站下架的视频备份**
 
-✓ **XLTX的主页：**
+✓ **小李同学的主页：**
 
 [B站（首发）](https://space.bilibili.com/3546668544821656) [抖音](https://www.douyin.com/user/MS4wLjABAAAASiyfbXSxfh4IoLCa53aomaojUJnagMMb9ROvzRdAxtzr6U4HD-2kweNO8IB3L7rF?from_tab_name=main) [YouTube](https://www.youtube.com/@玩电脑的小李同学)
 
